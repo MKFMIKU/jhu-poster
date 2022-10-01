@@ -1,0 +1,115 @@
+
+\begin{figure}[htbp]
+    \begin{subfigure}[t]{.195\linewidth}
+      \captionsetup{justification=centering, labelformat=empty, font=scriptsize}
+      \setlength{\fboxrule}{1pt}
+      \setlength{\fboxsep}{0pt}
+      \fcolorbox{blue}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight1/data.png}}
+      \fcolorbox{red}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight2/data.png}}
+      \includegraphics[width=1.\linewidth]{figures/visualization/mark/data.png}
+      \caption{Noisy Image \\ Acc: 23.66\%}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[t]{.195\linewidth}
+      \captionsetup{justification=centering, labelformat=empty, font=scriptsize}
+      \setlength{\fboxrule}{1pt}
+      \setlength{\fboxsep}{0pt}
+      \fcolorbox{blue}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight1/l1.png}}
+      \fcolorbox{red}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight2/l1.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight3/seg_l1.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight4/seg_l1.png}}
+      \caption{$\mathcal{L}_1$ \\ Acc: 42.59\%}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[t]{.195\linewidth}
+      \captionsetup{justification=centering, labelformat=empty, font=scriptsize}
+      \setlength{\fboxrule}{1pt}
+      \setlength{\fboxsep}{0pt}
+      \fcolorbox{blue}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight1/ssim.png}}
+      \fcolorbox{red}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight2/ssim.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight3/seg_ssim.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight4/seg_ssim.png}}
+      \caption{$\mathcal{L}_{SSIM}$~\cite{wang_image_2004} \\ Acc: 44.84\%}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[t]{.195\linewidth}
+      \captionsetup{justification=centering, labelformat=empty, font=scriptsize}
+      \setlength{\fboxrule}{1pt}
+      \setlength{\fboxsep}{0pt}
+      \fcolorbox{blue}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight1/vgg.png}}
+      \fcolorbox{red}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight2/vgg.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight3/seg_vgg.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight4/seg_vgg.png}}
+      \caption{$\mathcal{L}_{Perceptual}$~\cite{johnson_perceptual_2016} \\ Acc: 45.35\%}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[t]{.195\linewidth}
+      \captionsetup{justification=centering, labelformat=empty, font=scriptsize}
+      \setlength{\fboxrule}{1pt}
+      \setlength{\fboxsep}{0pt}
+      \fcolorbox{blue}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight1/lpips.png}}
+      \fcolorbox{red}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight2/lpips.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight3/seg_lpips.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight4/seg_lpips.png}}
+      \caption{$\mathcal{L}_{LPIPS}$~\cite{zhang_unreasonable_2018} \\ Acc: 43.25\%}
+    \end{subfigure}%
+  
+    \begin{subfigure}[t]{.195\linewidth}
+      \captionsetup{justification=centering, labelformat=empty, font=scriptsize}
+      \setlength{\fboxrule}{1pt}
+      \setlength{\fboxsep}{0pt}
+      \fcolorbox{blue}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight1/cx.png}}
+      \fcolorbox{red}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight2/cx.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight3/seg_cx.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight4/seg_cx.png}}
+      \caption{$\mathcal{L}_{Contextual}$~\cite{mechrez_contextual_2018} \\ Acc: 43.28\%}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[t]{.195\linewidth}
+      \captionsetup{justification=centering, labelformat=empty, font=scriptsize}
+      \setlength{\fboxrule}{1pt}
+      \setlength{\fboxsep}{0pt}
+      \fcolorbox{blue}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight1/semantic-label.png}}
+      \fcolorbox{red}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight2/semantic-label.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight3/seg_semantic-label.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight4/seg_semantic-label.png}}
+      \caption{$\mathcal{L}_{CrossEntropy}$~\cite{liu_connecting_2020} \\ Acc: 44.09\%}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[t]{.195\linewidth}
+      \captionsetup{justification=centering, labelformat=empty, font=scriptsize}
+      \setlength{\fboxrule}{1pt}
+      \setlength{\fboxsep}{0pt}
+      \fcolorbox{blue}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight1/dest.png}}
+      \fcolorbox{red}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight2/dest.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight3/seg_dest.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight4/seg_dest.png}}
+      \caption{Ours w/o. Internal \\ Acc: 42.90\%}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[t]{.195\linewidth}
+      \captionsetup{justification=centering, labelformat=empty, font=scriptsize}
+      \setlength{\fboxrule}{1pt}
+      \setlength{\fboxsep}{0pt}
+      \fcolorbox{blue}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight1/ours.png}}
+      \fcolorbox{red}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight2/ours.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight3/seg_innerdest.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight4/seg_innerdest.png}}
+      \caption{Ours \\ Acc: 46.31\%}
+    \end{subfigure}%
+    \hfill
+    \begin{subfigure}[t]{.195\linewidth}
+      \captionsetup{justification=centering, labelformat=empty, font=scriptsize}
+      \setlength{\fboxrule}{1pt}
+      \setlength{\fboxsep}{0pt}
+      \fcolorbox{blue}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight1/label.png}}
+      \fcolorbox{red}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight2/label.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight3/seg_label.png}}
+      \fcolorbox{green}{white}{\includegraphics[width=0.45\linewidth]{figures/visualization/munster_000155_000019_25_highlight4/seg_label.png}}
+      \caption{Clear Image \\ Acc: 55.60\%}
+    \end{subfigure}%
+    \caption{Qualitative comparison on the denoising and segmentation results. Ours preserves most of the semantic details, including the human shape and font edge in the highlighted area. Additionally, in the shown segmentation results, our result is the only one that can be successfully recognized into \emph{traffic light}.}
+    \label{fig:visualization}
+  \end{figure}
+  
+  
